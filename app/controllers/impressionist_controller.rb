@@ -50,6 +50,7 @@ module ImpressionistController
         :request_hash => @impressionist_hash,
         :session_hash => session_hash,
         :ip_address => request.remote_ip,
+        :locale => I18n.locale.to_s,
         :referrer => request.referer
         )
     end

@@ -16,6 +16,7 @@ class Impression
   field :view_name
   field :request_hash
   field :ip_address
+  field :locale
   field :session_hash
   field :message
   field :referrer

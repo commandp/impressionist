@@ -32,6 +32,7 @@ module Impressionist
                         :session_hash,
                         :action_name,
                         :ip_address,
+                        :locale,
                         :view_name,
                         :referrer,
                         :message,

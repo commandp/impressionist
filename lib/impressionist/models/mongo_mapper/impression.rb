@@ -9,6 +9,7 @@ class Impression
   key :view_name, String
   key :request_hash, String
   key :ip_address, String
+  key :locale, String
   key :session_hash, String
   key :message, String
   key :referrer, String
